@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modernfurniture">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name=".Login"/>
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity android:name=".Add_products" />
+        <activity android:name=".WishlistDetails" />
+        <activity android:name=".DetailsPage" />
+        <activity android:name=".SuccessPay" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Admin_orderReport" />
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".admin_login" />
+        <activity android:name=".camera" />
+        <activity android:name=".cart" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".gallery" />
+
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".profile" />
+        <activity android:name=".Signup" />
+        <activity android:name=".wishlist" />
+        <activity android:name=".UserDashboard"></activity>
+        <activity android:name=".ViewUsers"></activity>
+        <activity android:name="ViewDisptachProduct"></activity>
+    </application>
+
+</manifest>
