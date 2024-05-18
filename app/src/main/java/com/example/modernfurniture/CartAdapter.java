@@ -37,11 +37,12 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
         public CartViewHolder(View itemView, OnItemClickListner listner) {
             super(itemView);
-            mname = itemView.findViewById(R.id.Cname);
+           
             mprice = itemView.findViewById(R.id.Cprice);
             mquantity = itemView.findViewById(R.id.Cquantity);
             mimage = itemView.findViewById(R.id.Cimage);
             mdelete = itemView.findViewById(R.id.Cdelete);
+             mname = itemView.findViewById(R.id.Cname);
 
 
             mdelete.setOnClickListener(new View.OnClickListener() {
