@@ -121,6 +121,7 @@
                 android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:text="TV" />
+            
         </LinearLayout>
     </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
