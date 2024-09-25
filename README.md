@@ -53,3 +53,12 @@ There is no command line interface provided to the user in the application.
 1.	API2Cart – for cart and shopping
 2.	ARCore – for Augmented Reality
 
+## Publications
+
+**Interior Design Application based on Augmented Reality**
+
+**Abstract** : The innovative Augmented Reality Interior Design App represents a state-of-the-art mobile solution that aims to redefine the approach to envisioning and customizing living spaces. Unlike traditional interior design methods, which rely on static images and imagination, this app addresses the uncertainties and dissatisfaction often encountered during implementation. By leveraging augmented reality, the application offers users a dynamic and immersive experience, seamlessly mergingthe virtual and real worlds. In the ever-evolving landscape of modern interior design, technology, particularly Augmented Reality (AR), emerges as a transformative tool. This abstract introduces a groundbreaking AR-based interior design application poised to transform the interior design experience. Through the utilization of AR capabilities, users can engage in real-time visualization and interaction with virtual furniture, decor, and layouts, seamlessly integrating digital elements into their physical surroundings.
+
+**Keywords** : Augmented Reality ,System Design ,Virtual Reality.
+
+  https://www.ijisrt.com/interior-design-application-based-on-augmented-reality
